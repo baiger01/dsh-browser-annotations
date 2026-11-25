@@ -1,0 +1,46 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Browser Annotations",
+    "zh": "浏览器注释"
+  },
+  "plugins": [
+    {
+      "name": "dsh-browser-annotations",
+      "title": {
+        "en": "Browser Annotations",
+        "zh": "浏览器注释"
+      },
+      "description": {
+        "en": "Select a page element in the DSH desktop browser and add a note, a clean crop and a marked viewport screenshot to your chat draft.",
+        "zh": "点选 DSH 浏览器中的网页元素，写下反馈，把选区图和可视区图一起放进对话草稿。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5NiA5NiIgZmlsbD0ibm9uZSI+CiAgPHJlY3QgeD0iMiIgeT0iMiIgd2lkdGg9IjkyIiBoZWlnaHQ9IjkyIiByeD0iMjMiIGZpbGw9IiMxRTQwNDQiLz4KICA8cGF0aCBkPSJNMjAgMzhWMjdhNyA3IDAgMCAxIDctN2gxM20zMiAxN1YyN2E3IDcgMCAwIDAtNy03SDU0TTIwIDU0djExYTcgNyAwIDAgMCA3IDdoOSIgc3Ryb2tlPSIjQjdFM0Q4IiBzdHJva2Utd2lkdGg9IjQuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPHBhdGggZD0iTTM5IDM3aDMyYTcgNyAwIDAgMSA3IDd2MTdhNyA3IDAgMCAxLTcgN0g1M0w0MCA3OVY2OGgtMWE3IDcgMCAwIDEtNy03VjQ0YTcgNyAwIDAgMSA3LTdaIiBmaWxsPSIjRkNGQUYwIi8+CiAgPHBhdGggZD0iTTQzIDQ4aDI0bS0yNCA5aDE1IiBzdHJva2U9IiMzMDU2NUIiIHN0cm9rZS13aWR0aD0iMy44IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPC9zdmc+Cg==",
+      "author": "baiger01",
+      "homepage": "https://github.com/baiger01/dsh-browser-annotations#readme",
+      "repository": {
+        "url": "https://github.com/baiger01/dsh-browser-annotations"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh-plugin",
+          "deepseek-harness",
+          "browser",
+          "annotations",
+          "screenshots"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.2",
+          "publishTimestamp": 1795601629,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/baiger01/dsh-browser-annotations",
+            "commit": "ba45d89df655ba4ec6474e01bf57651b47f496af"
+          }
+        }
+      ]
+    }
+  ]
+}
