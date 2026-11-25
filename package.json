@@ -1,0 +1,47 @@
+{
+  "name": "dsh-browser-annotations",
+  "version": "0.2.2",
+  "description": "Select a page element in the DSH desktop browser and add a note, a clean crop and a marked viewport screenshot to your chat draft.",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json",
+    "./icon": "./icon.svg",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "lib",
+    "locale",
+    "icon.svg",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-sidebar-browser",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-api-session-controller"
+      ]
+    }
+  },
+  "author": "baiger01",
+  "repository": {
+    "url": "git+https://github.com/baiger01/dsh-browser-annotations.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/baiger01/dsh-browser-annotations#readme",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "browser",
+    "annotations",
+    "screenshots"
+  ]
+}
